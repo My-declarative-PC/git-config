@@ -1,0 +1,15 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[safe]
+	directory = /var/lib/linux-setup
+	directory = /etc/dotfiles
+
+[user]
+	email = tima.sitnikov@mail.ru
+	name = Sitnikov Timofey
