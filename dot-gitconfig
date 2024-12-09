@@ -13,3 +13,5 @@
 [user]
 	email = tima.sitnikov@mail.ru
 	name = Sitnikov Timofey
+[credential]
+	helper = store
