@@ -10,7 +10,8 @@
 [safe]
 	directory = /var/lib/linux-setup
 	directory = /etc/dotfiles
-	directory = $HOME/gits/homelab-composes
+	directory = /home/timofey/gits/homelab-composes
+	directory = /home/timofey/gits/arch-setup
 
 [user]
 	email = tima.sitnikov@mail.ru
