@@ -1,6 +1,6 @@
 [core]
     editor = hx
-    pager = delta
+    pager = delta --dark --diff-so-fancy
 
 [user]
     email = tima.sitnikov@mail.ru
