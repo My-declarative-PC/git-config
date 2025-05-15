@@ -52,6 +52,7 @@
     features = catppuccin-mocha
     syntax-theme = Catppuccin Mocha
     navigate = true
+    dark = true
     light = false
     side-by-side = true
 ###
