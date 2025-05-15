@@ -26,6 +26,12 @@
 [alias]
     sl = log --graph --pretty=\"%Cgreen%aN %C(yellow)Hash: %h %C(blue)Date: %ad (%C(cyan)%cr%Cblue)%n%C(magenta)Message: %Creset%s%n%b\" --date=human
 
+    # Difftastic
+    dlog = -c diff.external=difft log --ext-diff
+    dshow = -c diff.external=difft show --ext-diff
+    ddiff = -c diff.external=difft diff
+    ###
+
 [merge]
     conflictstyle = zdiff3
 
