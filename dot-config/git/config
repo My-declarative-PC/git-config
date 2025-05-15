@@ -39,7 +39,11 @@
 [interactive]
     diffFilter = delta --color-only
 
+[include]
+    path = ~/.config/git/catppuccin.gitconfig
+
 [delta]
+    features = catppuccin-mocha
     syntax-theme = Catppuccin Mocha
     navigate = true
     light = false
