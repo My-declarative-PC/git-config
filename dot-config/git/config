@@ -11,7 +11,7 @@
 
 # Credential
 [credential]
-    helper = store
+	helper = store
 
 [credential "https://github.com"]
    helper = !/usr/bin/gh auth git-credential
